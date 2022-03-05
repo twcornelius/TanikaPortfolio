@@ -15,22 +15,27 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(188, 16, 211);
+  color: rgb(253, 242, 251);
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #faf60c;
   color: white;
 }
 
-.h2 {text-align: center;}
+.h2 {text-align: center;
+	color: red;
+
+}
 p {text-align: center;
   color: red;
-  
-  
+}
 
+.ul {
+	text-align: center;
+	color: red;
 }
  
 @import url('https://fonts.googleapis.com/css?family=Barlow');
@@ -64,7 +69,7 @@ h1.main, p.demos {
 	width: 100%;
 	height: 100%;
 	z-index: 0;
-	background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+	background: -webkit-radial-gradient(rgba(248, 245, 245, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
